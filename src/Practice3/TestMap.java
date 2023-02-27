@@ -1,14 +1,14 @@
-package pr3;
+package Practice3;
 
-public class TestSet {
+public class TestMap {
     public static void main(String[] args) throws Exception {
-        MySet<Integer> myset = new MySet<>();
+        MyMap<Integer, Integer> mymap = new MyMap<>();
         Thread one = new Thread(() -> {
-            myset.add(1);
+            mymap.put(1, 1);
 
         });
         Thread two = new Thread(() -> {
-            myset.remove(2);
+            mymap.get(1);
         });
         one.start();
         two.start();

@@ -1,4 +1,4 @@
-package pr3;
+package Practice3;
 
 import java.util.Collection;
 import java.util.HashMap;

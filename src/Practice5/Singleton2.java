@@ -1,4 +1,4 @@
-package pr5;
+package Practice5;
 
 public enum Singleton2 {
     INSTANCE;

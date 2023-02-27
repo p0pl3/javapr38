@@ -1,4 +1,4 @@
-package pr4;
+package Practice4;
 
 import java.util.Collection;
 import java.util.List;

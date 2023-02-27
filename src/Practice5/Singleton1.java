@@ -1,4 +1,4 @@
-package pr5;
+package Practice5;
 
 public class Singleton1 {
     private static final Singleton1 INSTANCE = new Singleton1();
